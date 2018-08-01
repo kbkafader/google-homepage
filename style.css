@@ -1,0 +1,18 @@
+#logo{
+    margin: auto;
+    padding: 250px;
+    width: 50%;
+}
+.search_bar{
+    position: relative;
+    margin: auto;
+   -webkit-appearance: none;
+}
+.button{
+    position: relative;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
