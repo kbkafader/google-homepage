@@ -6,13 +6,41 @@
 .search_bar{
     position: relative;
     margin: auto;
-   -webkit-appearance: none;
+    text-align: center;
+    font-size: 16px;
+    -webkit-appearance: none;
 }
 .button{
     position: relative;
     margin: auto;
     border: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     -webkit-appearance: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    padding: 20px 16px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 61, 61);
+}
+.footer{
+    background-color: rgb(245, 240, 240);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
